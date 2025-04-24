@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Todo-List</title>
+  <link rel="stylesheet" href="todo.css" />
+</head>
+<body>
+    <header>
+        <h1>TaskMaster</h1>
+        <form class="signup-form">
+            <input type="email" placeholder="Enter your email" required />
+            <input type="password" placeholder="Create password" required />
+            <button type="submit">Sign Up</button>
+        </form>
+    </header>
+
+    <main class="todo-container">
+        <h2>Your To-Do List</h2>
+        <form class="task-input-form">
+            <input type="text" placeholder="Enter a new task..."/>
+            <button type="button">Add Task</button>
+        </form>
+
+        <section class="task-list">
+            <div class="task">
+                <input type="checkbox" id="task1">
+                <label for="task1">Complete HTML project</label>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task2">
+                <label for="task2">Study CSS layouts</label>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="task3">
+                <label for="task3">Design To-Do UI</label>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

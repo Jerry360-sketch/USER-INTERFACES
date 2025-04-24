@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Investor 4.0</title>
+  <link rel="stylesheet" href="styles2.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Investor 4.0</h1>
+
+        <!-- Add New Member -->
+        <section class="card">
+            <h2>Add New Member</h2>
+            <form>
+                <input type="text" placeholder="Member Name"/>
+                <input type="number" placeholder="Initial Balance"/>
+                <button>Add Member</button>
+            </form>
+        </section>
+
+        <!-- Update Balance -->
+        <section class="card">
+            <h2>Update Balance</h2>
+            <form>
+                <select>
+                <option>Select Member</option>
+                </select>
+                <input type="number" placeholder="Amount"/>
+                <select>
+                <option>Deposit</option>
+                <option>Withdraw</option>
+                </select>
+                <button>Update</button>
+            </form>
+        </section>
+
+        <!-- All Members Table -->
+        <section class="card">
+            <h2>All Members</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Icon</th>
+                        <th>Name</th>
+                        <th>Balance</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><i class="fas fa-user-circle avatar-icon"></i></td>
+                        <td>Peter</td>
+                        <td>8,000</td>
+                        <td>
+                        <i class="fas fa-pen action-icon edit"></i>
+                        <i class="fas fa-trash action-icon delete"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-user-circle avatar-icon"></i></td>
+                        <td>Kachi</td>
+                        <td>4,000</td>
+                        <td>
+                        <i class="fas fa-pen action-icon edit"></i>
+                        <i class="fas fa-trash action-icon delete"></i>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+  </div>
+</body>
+</html>
